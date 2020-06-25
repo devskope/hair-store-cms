@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "content management for the hair store app",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -17,6 +17,7 @@
     "strapi-plugin-content-manager": "3.0.5",
     "strapi-plugin-content-type-builder": "3.0.5",
     "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-graphql": "3.0.5",
     "strapi-plugin-upload": "3.0.5",
     "strapi-plugin-users-permissions": "3.0.5",
     "strapi-utils": "3.0.5"
