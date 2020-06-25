@@ -1,0 +1,52 @@
+{
+  "name": "hair-store-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "content management for the hair store app",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.5",
+    "strapi-admin": "3.0.5",
+    "strapi-connector-mongoose": "3.0.5",
+    "strapi-plugin-content-manager": "3.0.5",
+    "strapi-plugin-content-type-builder": "3.0.5",
+    "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-upload": "3.0.5",
+    "strapi-plugin-users-permissions": "3.0.5",
+    "strapi-utils": "3.0.5"
+  },
+  "author": {
+    "name": "devskope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devskope/hair-store-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devskope/hair-store-cms/issues"
+  },
+  "homepage": "https://github.com/devskope/hair-store-cms#readme",
+  "keywords": [
+    "hair",
+    "cms",
+    "ecommerce",
+    "store",
+    "shopping",
+    "strapi",
+    "graphql"
+  ],
+  "strapi": {
+    "uuid": "a616541e-42b4-4bd7-83b1-001dc65e6572"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
