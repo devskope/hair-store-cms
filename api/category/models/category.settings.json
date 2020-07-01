@@ -24,9 +24,8 @@
       "required": true
     },
     "products": {
-      "collection": "products",
       "via": "categories",
-      "dominant": true
+      "collection": "product"
     }
   }
 }
